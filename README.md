@@ -139,10 +139,12 @@ Observe DHCP Traffic. This protocol is used to assign an IP Address to devices w
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![nslookup google and disney](https://github.com/user-attachments/assets/920d1a05-8b0f-4dec-ab8c-5fde4d49f706) ![dns traffic disney and goog;e](https://github.com/user-attachments/assets/8d5bdcab-dade-4462-894c-492b16f7c9e4)
+
 </p>
 <p>
-In Wireshark, filter for DNS traffic only. From Powershell in the Windows VM, use nslookup to see what google.com and disney.com’s IP addresses are. Observe the DNS traffic being show in WireShark
+From Powershell in the Windows VM, run the nslookup command followed by the URL of google.com and disney.com to see what the IP addresses are. In Wireshark, filter for DNS traffic only. Observe the DNS traffic being show in WireShark
 
 </p>
 <br />
