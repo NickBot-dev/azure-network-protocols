@@ -127,7 +127,9 @@ Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ ![ipconfig renew](https://github.com/user-attachments/assets/1a132272-1cd5-4682-be5c-3444ae7bf8db) ![dhcp filtered](https://github.com/user-attachments/assets/b27ee957-a8fa-4c16-a915-efdf3de05fd3)
+
 </p>
 <p>
 Observe DHCP Traffic. This protocol is used to assign an IP Address to devices when they are first connected to the network. DHCP uses UDP Ports: 67 and 68. Back in Wireshark, filter for DHCP traffic only From your Windows 10 VM, attempt to issue your VM a new IP address from the command line Open PowerShell as an admin and run the command "ipconfig /renew". We wil see the DHCP traffic appearing in WireShark
