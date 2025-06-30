@@ -108,7 +108,7 @@ After enabling our new Inbound Security Rule, we now only see the requests from 
 
 <p>
 
- ![ssh filter](https://github.com/user-attachments/assets/9d8db951-2456-4201-8213-ab92628ae787) ![ssh command](https://github.com/user-attachments/assets/319c15ea-f8f8-4a97-9f11-e3fb4c458967) ![scrn shot 20](https://github.com/user-attachments/assets/6c67eb14-4893-4050-abfc-56bbcf2f19e6) ![ssh filter after connection](https://github.com/user-attachments/assets/3bf8af52-487e-41a7-a594-136d0e7295d7)
+![ssh command](https://github.com/user-attachments/assets/319c15ea-f8f8-4a97-9f11-e3fb4c458967) ![scrn shot 20](https://github.com/user-attachments/assets/6c67eb14-4893-4050-abfc-56bbcf2f19e6) ![ssh filter after connection](https://github.com/user-attachments/assets/3bf8af52-487e-41a7-a594-136d0e7295d7)
 
 </p>
 <p>
