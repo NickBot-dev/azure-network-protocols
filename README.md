@@ -110,7 +110,7 @@ After enabling our new Inbound Security Rule, we now only see the requests from 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Observe SSH Traffic. 
+Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from one computer to another. 
 </p>
 <br />
 
