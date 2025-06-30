@@ -132,7 +132,7 @@ Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from
 
 </p>
 <p>
-Observe DHCP Traffic. This protocol is used to assign an IP Address to devices when they are first connected to the network. DHCP uses UDP Ports: 67 and 68. Back in Wireshark, filter for DHCP traffic only From your Windows 10 VM, attempt to issue your VM a new IP address from the command line Open PowerShell as an admin and run the command "ipconfig /renew". We wil see the DHCP traffic appearing in WireShark
+Observe DHCP Traffic. This protocol is used to assign an IP Address to devices when they are first connected to the network. DHCP uses UDP Ports: 67 and 68. Back in Wireshark, filter for DHCP traffic only From your Windows 10 VM, attempt to issue your VM a new IP address from the command line Open PowerShell as an admin and run the command "ipconfig /renew". We will see the DHCP traffic appearing in WireShark
 
 </p>
 <br />
@@ -142,7 +142,8 @@ Observe DHCP Traffic. This protocol is used to assign an IP Address to devices w
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Observe DNS Traffic. 
+In Wireshark, filter for DNS traffic only. From Powershell in the Windows VM, use nslookup to see what google.com and disney.com’s IP addresses are. Observe the DNS traffic being show in WireShark
+
 </p>
 <br />
 
