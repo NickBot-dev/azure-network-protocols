@@ -144,7 +144,7 @@ Observe DHCP Traffic. This protocol is used to assign an IP Address to devices w
 
 </p>
 <p>
-Observe DNS Traffic. DNS, or Domain Name System, uses TCP/UDP Port:53. From Powershell in the Windows VM, run the command "nslookup" followed by the URL of "google.com" and "disney.com" to see what the IP addresses are. In Wireshark, filter for DNS traffic only. Observe the DNS traffic being show in WireShark
+Observe DNS Traffic. DNS, or Domain Name System, uses TCP/UDP Port: 53. From Powershell in the Windows VM, run the command "nslookup" followed by the URL of "google.com" and "disney.com" to see what the IP addresses are. In Wireshark, filter for DNS traffic only. Observe the DNS traffic being show in WireShark
 
 </p>
 <br />
@@ -153,6 +153,6 @@ Observe DNS Traffic. DNS, or Domain Name System, uses TCP/UDP Port:53. From Powe
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Observe RDP Traffic. RDP or Remote desktop Protocol is used to remotely connect from one computer to another to gain a Remote Desktop Graphical User Interface (GUI). RDP uses TCP Port:3389
+Observe RDP Traffic. RDP or Remote desktop Protocol is used to remotely connect from one computer to another to gain a Remote Desktop Graphical User Interface (GUI). The Computer being connected to is typically listening for a connection on TCP Port: 3389. RDP uses TCP Port: 3389
 </p>
 <br />
