@@ -102,7 +102,7 @@ Back in Microsoft Azure, open the Network Security Group for the Linux VM and di
 
 </p>
 <p>
-After enabling our new Inbound Security Rule, we now only see "request timed out". This shows that our new Inbound Security Rule working and we have successfully configured a Network Security Group (NSG). We can delete the rule if we want to revert the changes.  
+After enabling our new Inbound Security Rule, we now only see "Request timed out". This shows that our new Inbound Security Rule working and we have successfully configured a Network Security Group (NSG). We can delete the rule if we want to revert the changes.  
 </p>
 <br />
 
