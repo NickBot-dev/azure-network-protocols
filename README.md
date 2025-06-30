@@ -130,7 +130,8 @@ Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Observe DHCP Traffic. 
+Observe DHCP Traffic. Back in Wireshark, filter for DHCP traffic only From your Windows 10 VM, attempt to issue your VM a new IP address from the command line Open PowerShell as admin and run: ipconfig /renew. Observe the DHCP traffic appearing in WireShark
+
 </p>
 <br />
 
