@@ -71,7 +71,7 @@ After opening Powershell, we will run the Ping Command, followed by the Private 
 
 </p>
 <p>
-Back in Wireshark, we see the requests from the Linux VM, as well as the replies from the Windows VM.  
+Back in Wireshark, we see the requests from the Linux VM, as well as the replies from the Windows VM. This shows that the Windows and Linux VMs both have a successful connection.   
 </p>
 <br />
 
