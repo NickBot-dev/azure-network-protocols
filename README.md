@@ -61,7 +61,7 @@ Observing ICMP Traffic. We start by typing icmp in the green search bar followed
 
 </p>
 <p>
-After opening Powershell, we will run the Ping Command followed by the Private IP Address of the Linux Virtual Machine (VM), ping 10.0.0.5... This will allow Wirshark to capture and display the ICMP traffic that we're looking for. 
+After opening Powershell, we will run the Ping Command, followed by the Private IP Address of the Linux Virtual Machine (VM), ping 10.0.0.5... This will allow Wirshark to capture and display the ICMP traffic that we're looking for. 
 </p>
 <br />
 
@@ -71,7 +71,7 @@ After opening Powershell, we will run the Ping Command followed by the Private I
 
 </p>
 <p>
-Back in Wireshark, we see the requests and replys between the Windows and Linux Virtual Machines.  
+Back in Wireshark, we see the requests from the Linux VM, as well as the replies from the Windows VM.  
 </p>
 <br />
 
