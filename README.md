@@ -37,7 +37,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p>
 
-  ![Screenshot 2025-06-27 122056](https://github.com/user-attachments/assets/56c42ac0-9ee8-43c4-8c9e-7e1b0becaf8f) ![Screenshot 2025-06-27 122135](https://github.com/user-attachments/assets/b9549912-ceeb-422f-ad4d-6562dcab6179)
+ ![Screenshot 2025-06-27 122056](https://github.com/user-attachments/assets/56c42ac0-9ee8-43c4-8c9e-7e1b0becaf8f) ![Screenshot 2025-06-27 122135](https://github.com/user-attachments/assets/b9549912-ceeb-422f-ad4d-6562dcab6179)
 
 </p>
 <p>
@@ -97,10 +97,12 @@ Back in Microsoft Azure, open the Network Security Group for the Linux VM and di
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  ![ggugyu](https://github.com/user-attachments/assets/e7b2b22d-3cbb-4dd4-a94d-73b6bf8eb604) ![Untitled](https://github.com/user-attachments/assets/0833ad3a-25d8-4486-8ce8-f566a05c7527)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After enabling our new Inbound Security Rule, we now only see the requests from the Windows VM and "no response found" from the Linux VM. This shows that our new Inbound Security Rule is successfully working.  
 </p>
 <br />
 
