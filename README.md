@@ -102,7 +102,7 @@ Back in Microsoft Azure, open the Network Security Group for the Linux VM and di
 
 </p>
 <p>
-After enabling our new Inbound Security Rule, we now only see the requests from the Windows VM and "no response found" from the Linux VM. This shows that our new Inbound Security Rule is successfully working.  
+After enabling our new Inbound Security Rule, we now only see the requests from the Windows VM and "no response found" from the Linux VM. This shows that our new Inbound Security Rule working and we have successfully configured a Network Security Group (NSG).  
 </p>
 <br />
 
