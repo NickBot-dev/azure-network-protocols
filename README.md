@@ -77,11 +77,11 @@ Back in Wireshark, we see the requests from the Linux VM, as well as the replies
 
 <p>
 
-![scrnshot nsg ping -t command](https://github.com/user-attachments/assets/89734012-8624-47d8-b752-387347858629) 
+![scrnshot nsg ping -t command](https://github.com/user-attachments/assets/89734012-8624-47d8-b752-387347858629) ![scrn shot ping -t](https://github.com/user-attachments/assets/9f21bc81-f5a9-4bd3-b2e8-242f5c0929e5)
 
 </p>
 <p>
-Configure a Firewall (Network Security Group). To start, initiate a perpetual/non-stop ping from the Windows 10 VM to the Linux VM by running the command... ping 10.0.0.5 -t. We will notice that Wireshark starts to non-stop ping ICMP Traffic.  
+Configure a Firewall (Network Security Group). To start, initiate a perpetual/non-stop ping from the Windows 10 VM to the Linux VM by running the command... "ping 10.0.0.5 -t". We will notice that Wireshark starts to non-stop ping ICMP Traffic.  
 </p>
 <br />
 
