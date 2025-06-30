@@ -36,10 +36,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  ![Screenshot 2025-06-27 122056](https://github.com/user-attachments/assets/56c42ac0-9ee8-43c4-8c9e-7e1b0becaf8f) ![Screenshot 2025-06-27 122135](https://github.com/user-attachments/assets/b9549912-ceeb-422f-ad4d-6562dcab6179)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We start with logging into the Windows and Linux Virtual Machines (VM) using Remote Desktop Connection. Copy and paste the public IP address of the VM that we want to connect to, followed by supplying the credentials to successfully log in.   
 </p>
 <br />
 
