@@ -81,15 +81,17 @@ Back in Wireshark, we see the requests from the Linux VM, as well as the replies
 
 </p>
 <p>
-Configure a Firewall (Network Security Group). To start, initiate a perpetual/non-stop ping from the Windows 10 VM to the Linux VM by running the command... "ping 10.0.0.5 -t". We will notice that Wireshark starts to non-stop ping ICMP Traffic.  
+Configure a Firewall (Network Security Group). To start, we initiate a perpetual/non-stop ping from the Windows 10 VM to the Linux VM by running the command... "ping 10.0.0.5 -t". We will notice that Wireshark starts to non-stop ping ICMP Traffic.  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![Screenshot 2025-06-27 123217](https://github.com/user-attachments/assets/3c2eb432-f097-491b-9251-0b5806fb68e4) ![Screenshot 2025-06-27 123335](https://github.com/user-attachments/assets/0954a7a5-88ec-43b1-ae39-eab6201d33c8) ![Screenshot 2025-06-27 123636](https://github.com/user-attachments/assets/6534b649-10cb-4e3d-8302-b193515ec215)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Microsoft Azure, open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic. Click on Network Settings, open the Network Security Group settings for the Linux VM.   
 </p>
 <br />
 
