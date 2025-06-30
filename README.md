@@ -66,10 +66,12 @@ After opening Powershell, we will run the Ping Command followed by the Private I
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+![scrnshot 5](https://github.com/user-attachments/assets/60e648db-e41f-44b8-8b6c-330d41155ea1)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Wireshark, we see the requests and replys between the Windows and Linux Virtual Machines.  
 </p>
 <br />
 
