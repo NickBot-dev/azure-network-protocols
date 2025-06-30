@@ -76,10 +76,12 @@ Back in Wireshark, we see the requests from the Linux VM, as well as the replies
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![scrnshot nsg ping -t command](https://github.com/user-attachments/assets/89734012-8624-47d8-b752-387347858629) 
+
 </p>
 <p>
-Configure a Firewall (Network Security Group). 
+Configure a Firewall (Network Security Group). To start, initiate a perpetual/non-stop ping from the Windows 10 VM to the Linux VM by running the command... ping 10.0.0.5 -t. We will notice that Wireshark starts to non-stop ping ICMP Traffic.  
 </p>
 <br />
 
