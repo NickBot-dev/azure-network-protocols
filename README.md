@@ -56,10 +56,12 @@ Observing ICMP Traffic. We start by typing icmp in the green search bar followed
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![scrnshot 4](https://github.com/user-attachments/assets/669542ad-ab27-4552-be8f-492a8d172798) ![scrnshot 2](https://github.com/user-attachments/assets/696e0039-4969-4f3c-a611-d29a7a222546)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After opening Powershell, we will run the Ping Command followed by the Private IP Address of the Linux Virtual Machine (VM), ping 10.0.0.5... This will allow Wirshark to capture and display the ICMP traffic that we're looking for. 
 </p>
 <br />
 
