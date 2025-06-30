@@ -107,11 +107,22 @@ After enabling our new Inbound Security Rule, we now only see the requests from 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![ssh filter](https://github.com/user-attachments/assets/9d8db951-2456-4201-8213-ab92628ae787) ![ssh command](https://github.com/user-attachments/assets/319c15ea-f8f8-4a97-9f11-e3fb4c458967) ![scrn shot 20](https://github.com/user-attachments/assets/6c67eb14-4893-4050-abfc-56bbcf2f19e6) ![ssh filter after connection](https://github.com/user-attachments/assets/3bf8af52-487e-41a7-a594-136d0e7295d7)
+
 </p>
 <p>
-Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from one computer to another. Log back into the windows-vm. Back in Wireshark, start a packet capture. Filter for SSH traffic only. From the Windows 10 VM, open PowerShell and run the command  "ssh labuser@10.0.0.5", this tells the Windows VM that we want to Secure Shell (SSH) connect to the Linux VM via the Windows VM. We specified the Username and Private IP Address of the Linux VM after the SSH Command in order to connect our Windows VM to the Linux VM via Secure Shell (SSH) connection. 
+Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from one computer to another, this ebables all communication to be encrypted or hidden. In the Windows VM, open Wireshark and start a packet capture. Filter for SSH traffic only. Next, open PowerShell and run the command  "ssh labuser@10.0.0.5", this tells the Windows VM that we want to Secure Shell (SSH) connect to the Linux VM from the Windows VM. We specified the Username and Private IP Address of the Linux VM after the SSH Command in order to connect our Windows VM to the Linux VM via Secure Shell (SSH) connection. Say "yes" to fingerprint and provide the Linux VM Credentials to successfully connect via Secure Shell (SSH). 
+ </p>
+<br />
+
+<p>
  
+ ![ffgyghjgjghjgjkj](https://github.com/user-attachments/assets/155fc27c-3b79-4013-a274-e670ae6c1973)
+
+</p>
+<p> 
+ We can see that the connection to the Linux VM was successful.
 </p>
 <br />
 
@@ -122,6 +133,7 @@ Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from
 Observe DHCP Traffic. 
 </p>
 <br />
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
