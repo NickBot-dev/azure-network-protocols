@@ -51,7 +51,7 @@ Make sure that both of the VMs are running. Start with logging into the Windows 
 
 </p>
 <p>
-Observing ICMP Traffic. We start by typing icmp in the green search bar followed by clicking start capture, which is the green shark fin icon above. This tells Wireshark to filter out all inbound and outbound traffic except for ICMP Traffic   
+Observing ICMP Traffic. We start by typing icmp in the green search bar followed by clicking start capture, which is the green shark fin icon above. This tells Wireshark to filter out all inbound and outbound traffic except for ICMP Traffic.    
 </p>
 <br />
 
