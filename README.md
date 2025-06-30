@@ -41,7 +41,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 </p>
 <p>
-We start with logging into the Windows and Linux Virtual Machines (VM) using Remote Desktop Connection. Copy and paste the public IP address of the VM that we want to connect to, followed by supplying the credentials to successfully log in.   
+Make sure that both of the VMs are running. Start with logging into the Windows Virtual Machine (VM) using Remote Desktop Connection. Copy and paste the public IP address of the Windows VM, followed by supplying the credentials to successfully log in.   
 </p>
 <br />
 
