@@ -112,7 +112,7 @@ After enabling our new Inbound Security Rule, we now only see the requests from 
 
 </p>
 <p>
-Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from one computer to another, this ebables all communication to be encrypted or hidden. In the Windows VM, open Wireshark and start a packet capture. Filter for SSH traffic only. Next, open PowerShell and run the command  "ssh labuser@10.0.0.5", this tells the Windows VM that we want to Secure Shell (SSH) connect to the Linux VM from the Windows VM. We specified the Username and Private IP Address of the Linux VM after the SSH Command in order to connect our Windows VM to the Linux VM via Secure Shell (SSH) connection. Say "yes" to fingerprint and provide the Linux VM Credentials to successfully connect via Secure Shell (SSH). 
+Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from one computer to another, this ebables all communication to be encrypted or hidden. In the Windows VM, open Wireshark and start a packet capture. Filter for SSH traffic only. Next, open PowerShell and run the command  "ssh labuser@10.0.0.5", this tells the Windows VM that we want to Secure Shell (SSH) connect to the Linux VM from the Windows VM. We specified the Username and Private IP Address of the Linux VM after the SSH Command in order to connect our Windows VM to the Linux VM via Secure Shell (SSH) connection. Say "yes" to fingerprint and provide the Linux VM Credentials to successfully connect via Secure Shell (SSH). SSH uses TCP Port:22
  </p>
 <br />
 
