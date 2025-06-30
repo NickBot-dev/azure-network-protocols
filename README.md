@@ -47,7 +47,7 @@ Make sure that both of the VMs are running. Start with logging into the Windows 
 
 <p>
 
- ![ggugyu](https://github.com/user-attachments/assets/136a33b3-e87e-447a-8456-1622d0e9fa7b)
+![icmp blank](https://github.com/user-attachments/assets/4244d588-b51d-40ed-9596-ac959cde6fac)
 
 </p>
 <p>
