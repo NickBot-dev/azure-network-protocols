@@ -150,9 +150,11 @@ Observe DNS Traffic. DNS, or Domain Name System, uses TCP/UDP Port: 53. From Pow
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![rdp filtered](https://github.com/user-attachments/assets/51b30648-4333-4b4e-a984-705db01039a6)
+
 </p>
 <p>
-Observe RDP Traffic. RDP or Remote desktop Protocol is used to remotely connect from one computer to another to gain a Remote Desktop Graphical User Interface (GUI). The Computer being connected to is typically listening for a connection on TCP Port: 3389. RDP uses TCP Port: 3389
+Observe RDP Traffic(Remote Desktop Protocol). In Wireshark, we type "rdp" in the search bar, followed by pressing "enter", in order to filter for RDP Traffic only. RDP is used for remotely connecting one computer to another, gaining a Remote Desktop Graphical User Interface (GUI). RDP uses TCP Port: 3389
 </p>
 <br />
