@@ -26,12 +26,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Observe ICMP Traffic
+- Observe ICMP Traffic (Internet Control Message Protocol)
 - Configure a Firewall (Network Security Group)
-- Observe SSH Traffic
-- Observe DHCP Traffic
-- Observe DNS Traffic
-- Observe RDP Traffic
+- Observe SSH Traffic (Secure Shell)
+- Observe DHCP Traffic (Dynamic Host Configuration Protocol)
+- Observe DNS Traffic (Domain Name System)
+- Observe RDP Traffic (Remote Desktop Protocol)
 
 <h2>Actions and Observations</h2>
 
@@ -46,10 +46,12 @@ Make sure that both of the VMs are running. Start with logging into the Windows 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![icmp blank](https://github.com/user-attachments/assets/ff33d217-d311-4fb1-a99c-8883e03ac2d1)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observing ICMP Traffic. We start by typing icmp in the green search bar followed by clicking start capture, which is the green shark fin icon above. This tells Wireshark to filter out all inbound and outbound traffic except for ICMP Traffic   
 </p>
 <br />
 
