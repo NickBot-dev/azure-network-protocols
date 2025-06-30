@@ -87,11 +87,12 @@ Configure a Firewall (Network Security Group). To start, we initiate a perpetual
 
 <p>
 
- ![Screenshot 2025-06-27 123217](https://github.com/user-attachments/assets/3c2eb432-f097-491b-9251-0b5806fb68e4) ![Screenshot 2025-06-27 123335](https://github.com/user-attachments/assets/0954a7a5-88ec-43b1-ae39-eab6201d33c8) ![Screenshot 2025-06-27 123636](https://github.com/user-attachments/assets/6534b649-10cb-4e3d-8302-b193515ec215)
+ ![Screenshot 2025-06-27 123217](https://github.com/user-attachments/assets/3c2eb432-f097-491b-9251-0b5806fb68e4) ![Screenshot 2025-06-27 123335](https://github.com/user-attachments/assets/0954a7a5-88ec-43b1-ae39-eab6201d33c8) ![Screenshot 2025-06-27 123636](https://github.com/user-attachments/assets/6534b649-10cb-4e3d-8302-b193515ec215) ![image](https://github.com/user-attachments/assets/3eeeba3d-9429-4cf5-83df-698c97fe1b33)
+
 
 </p>
 <p>
-Back in Microsoft Azure, open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic. Click on Network Settings, open the Network Security Group settings for the Linux VM.   
+Back in Microsoft Azure, open the Network Security Group for the Linux VM and disable incoming (inbound) ICMPv4 traffic, this is the traffic that the Ping command captures. Click on Network Settings, open the Network Security Group settings for the Linux VM, click inbound rules, and click add new inbound rule. Source/Destination Ports have the (*) symbol, which means any port, this is because ICMP Protocol does not use any specific ports. Finally we click add. We can see that our new inbound rule was successfully created.   
 </p>
 <br />
 
