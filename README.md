@@ -51,7 +51,7 @@ Make sure that both of the Virtual machines are running. Start with logging into
 
 </p>
 <p>
-Observing ICMP Traffic. We start by typing icmp all lower case in the green search bar and pressing "Enter". This tells Wireshark to filter out all inbound and outbound traffic except for ICMP Traffic. We can now see all of the packets that were captured.    
+Observing ICMP Traffic. We start by typing icmp all lower case in the green search bar and pressing "Enter". This tells Wireshark to filter out all inbound and outbound traffic except for ICMP Traffic. We will now be able to see the ICMP packets captured.    
 </p>
 <br />
 
@@ -61,7 +61,7 @@ Observing ICMP Traffic. We start by typing icmp all lower case in the green sear
 
 </p>
 <p>
-After opening Powershell, we will run the Ping Command, followed by the Private IP Address of the Linux Virtual Machine , "ping 10.0.0.5".  This will allow Wirshark to capture and display the ICMP traffic that we're looking for. 
+After opening Powershell, we will run the Ping Command, followed by the Private IP Address of the Linux Virtual Machine , "ping 10.0.0.5".  This will allow Wireshark to capture and display the ICMP traffic that we're looking for. 
 </p>
 <br />
 
