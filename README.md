@@ -112,7 +112,7 @@ After enabling our new Inbound Security Rule, we now only see "Request timed out
 
 </p>
 <p>
-Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from one computer to another, this ebables all communication to be encrypted or hidden. In the Windows Virtual Machine, open WireShark and start a packet capture. Filter for SSH traffic only. Next, open PowerShell and run the command  "ssh labuser@10.0.0.5", this tells the Windows Virtual Machine that we want to Secure Shell (SSH) connect to the Linux Virtual Machine from the Windows Virtual Machine. We specified the username and private IP Address of the Linux Virtual Machine after the SSH command in order to connect our Windows Virtual Machine to the Linux Virtual Machine via Secure Shell (SSH) connection. Say "yes" to fingerprint and provide the Linux Virtual Machine Credentials to successfully connect via Secure Shell (SSH). Secure Shell uses TCP Port: 22.
+Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from one computer to another, this ebables all communication to be encrypted or hidden. In the Windows virtual machine, open Wireshark and start a packet capture. Filter for SSH traffic only. Next, open PowerShell and run the command  "ssh labuser@10.0.0.5", this tells the Windows virtual machine that we want to Secure Shell (SSH) connect to the Linux Virtual Machine from the Windows Virtual Machine. We specified the username and private IP Address of the Linux Virtual Machine after the SSH command in order to connect our Windows Virtual Machine to the Linux Virtual Machine via Secure Shell (SSH) connection. Say "yes" to fingerprint and provide the Linux virtual machine credentials to successfully connect via Secure Shell (SSH). Secure Shell uses TCP Port: 22.
  </p>
 <br />
 
@@ -132,7 +132,7 @@ Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from
 
 </p>
 <p>
-Observe DHCP Traffic. This protocol is used to assign an IP Address to devices when they are first connected to the network. DHCP uses UDP Ports: 67 and 68. Back in Wireshark, filter for DHCP traffic only From your Windows 10 Virtual Machine, attempt to issue a new IP address from the command line. Open PowerShell as an adminintrator and run the command "ipconfig /renew". We will see the DHCP traffic appearing in WireShark
+Observe DHCP Traffic. This protocol is used to assign an IP address to devices when they are first connected to the network. Dynamic Host Control Protocol (DHCP) uses UDP Ports: 67 and 68. Back in Wireshark, we filter for DHCP traffic only from the Windows 10 virtual machine, attempt to issue a new IP address from the command line. Open PowerShell as an adminintrator and run the command "ipconfig /renew". We will now see the DHCP traffic being captured in Wireshark.
 
 </p>
 <br />
@@ -144,7 +144,7 @@ Observe DHCP Traffic. This protocol is used to assign an IP Address to devices w
 
 </p>
 <p>
-Observe DNS Traffic. DNS, or Domain Name System, uses TCP/UDP Port: 53. From Powershell in the Windows VM, run the command "nslookup" followed by the URL of "google.com" and "disney.com" to see what the IP addresses are. In Wireshark, filter for DNS traffic only. Observe the DNS traffic being show in WireShark
+Observe DNS Traffic. DNS, or Domain Name System, uses TCP/UDP Port: 53. From Powershell in the Windows VM, run the command "nslookup" followed by the URL of "google.com" and "disney.com" to see what the IP addresses are. In Wireshark, filter for DNS traffic only. Observe the DNS traffic being shown in WireShark
 
 </p>
 <br />
