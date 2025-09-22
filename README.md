@@ -132,7 +132,7 @@ Observe SSH Traffic. Secure Shell (SSH) is used to make a secure connection from
 
 </p>
 <p>
-Observe DHCP Traffic. This protocol is used to assign an IP address to devices when they are first connected to the network. Dynamic Host Control Protocol (DHCP) uses UDP Ports: 67 and 68. Back in Wireshark, we filter for DHCP traffic only from the Windows 10 virtual machine, attempt to issue a new IP address from the command line. Open PowerShell as an adminintrator and run the command "ipconfig /renew". We will now see the DHCP traffic being captured in Wireshark.
+Observe DHCP Traffic. This protocol is used to assign an IP address to devices when they are first connected to the network. Dynamic Host Configuration Protocol (DHCP) uses UDP Ports: 67 and 68. Back in Wireshark, we filter for DHCP traffic only from the Windows 10 virtual machine, attempt to issue a new IP address from the command line. Open PowerShell as an adminintrator and run the command "ipconfig /renew". We will now see the DHCP traffic being captured in Wireshark.
 
 </p>
 <br />
