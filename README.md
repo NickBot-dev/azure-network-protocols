@@ -87,12 +87,11 @@ Configuring a Firewall (Network Security Group). To start, we initiate a perpetu
 
 <p>
 
- ![Screenshot 2025-06-27 123217](https://github.com/user-attachments/assets/3c2eb432-f097-491b-9251-0b5806fb68e4) ![Screenshot 2025-06-27 123636](https://github.com/user-attachments/assets/6534b649-10cb-4e3d-8302-b193515ec215) ![image](https://github.com/user-attachments/assets/3eeeba3d-9429-4cf5-83df-698c97fe1b33)
-
+ ![Screenshot 2025-06-27 123217](https://github.com/user-attachments/assets/3c2eb432-f097-491b-9251-0b5806fb68e4) ![Screenshot 2025-06-27 123636](https://github.com/user-attachments/assets/6534b649-10cb-4e3d-8302-b193515ec215) 
 
 </p>
 <p>
-Back in Microsoft Azure, open the Network Security Group for the Linux Virtual Machine and disable incoming or inbound ICMPv4 traffic, this is the traffic that appears in Wireshark after running the "Ping" command . Click on Network Settings, open the Network Security Group settings for the Linux Virtual Machine, click inbound rules, and click add new inbound rule. Source/Destination Ports have the (*) symbol, which means any port, this is because ICMP Protocol does not use any specific ports. Finally we click "add". We can see that our new inbound rule was successfully created.   
+Back in Microsoft Azure, open the Network Security Group for the Linux Virtual Machine and disable incoming or inbound ICMPv4 traffic, this is the traffic that appears in Wireshark after running the "Ping" command. Click on Network Settings, open the Network Security Group settings for the Linux Virtual Machine, click inbound rules, and click add new inbound rule. Source/Destination Ports have the (*) symbol, which means any port, this is because ICMP Protocol does not use any specific ports. Click "add," we will see that the new inbound rule was successfully created.    
 </p>
 <br />
 
